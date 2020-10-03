@@ -121,11 +121,6 @@ module.exports = function (app) {
                     });
                 }
 
-                // res.json({
-                //     error: false,
-                //     data: notes,
-                //     message: "Successfully deleted note"
-                // });
                 res.json({ ok: true });
             });
         });
